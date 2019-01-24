@@ -2893,3 +2893,58 @@ No serializer found for resource: #<Exercise id: 19, name: "barbell bench press"
 Completed 200 OK in 27ms (Views: 8.9ms | ActiveRecord: 1.3ms)
 
 
+Started GET "/games" for 127.0.0.1 at 2019-01-23 18:08:07 -0600
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/franciscobanda/.rvm/gems/ruby-2.3.3/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  
+ActionController::RoutingError (No route matches [GET] "/games"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/api/v1/workouts" for 127.0.0.1 at 2019-01-23 18:08:16 -0600
+Processing by Api::V1::WorkoutsController#index as HTML
+  [1m[36mWorkout Load (0.3ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts"[0m
+  ↳ app/controllers/api/v1/workouts_controller.rb:11
+No serializer found for resource: #<Workout id: 10, name: "Leg Day", created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Workout::ActiveRecord_Relation (0.85ms)
+Completed 200 OK in 34ms (Views: 17.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/v1/stats" for 127.0.0.1 at 2019-01-23 18:08:25 -0600
+Processing by Api::V1::StatsController#index as HTML
+  [1m[36mStat Load (0.2ms)[0m  [1m[34mSELECT "stats".* FROM "stats"[0m
+  ↳ app/controllers/api/v1/stats_controller.rb:11
+No serializer found for resource: #<Stat id: 1, sets: 3, min_weight: 80, max_weight: 180, reps: 36, workout_id: 10, exercise_id: 22, created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Stat::ActiveRecord_Relation (1.94ms)
+Completed 200 OK in 30ms (Views: 9.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/v1/exercises" for 127.0.0.1 at 2019-01-23 18:08:47 -0600
+Processing by Api::V1::ExercisesController#index as HTML
+  [1m[36mExercise Load (0.2ms)[0m  [1m[34mSELECT "exercises".* FROM "exercises"[0m
+  ↳ app/controllers/api/v1/exercises_controller.rb:11
+No serializer found for resource: #<Exercise id: 19, name: "barbell bench press", category: "strength", main_muscle_worked: "chest", equipment: "barbell", level: "beginner", video: "https://www.bodybuilding.com/exercises/barbell-ben...", created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Exercise::ActiveRecord_Relation (2.9ms)
+Completed 200 OK in 32ms (Views: 9.8ms | ActiveRecord: 0.9ms)
+
+
