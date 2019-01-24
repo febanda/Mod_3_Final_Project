@@ -1,6 +1,6 @@
 class Exercise < ApplicationRecord
     has_many :stats 
-    has_many :workouts, through: :stats
+    belongs_to :workout
 
     # accepts_nested_attributes_for :stats
     validates :name, presence: true 

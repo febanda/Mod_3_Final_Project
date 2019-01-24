@@ -26,7 +26,7 @@ class Api::V1::ExercisesController < ApplicationController
         end
         
         def exercise_params
-            params.permit(:name, :category, :main_muscle_worked, :equipment, :level, :video)
+            params.permit(:name, :category, :main_muscle_worked, :equipment, :level, :video, :workout_id)
         end
         
         def define_current_exercise

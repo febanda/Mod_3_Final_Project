@@ -15,18 +15,18 @@ workout2 = Workout.create(name: 'Chest Day')
 workout3 = Workout.create(name: 'Back Day')
 
 
-exercise1 = Exercise.create(name: 'barbell bench press', category: 'strength', main_muscle_worked: 'chest', equipment: 'barbell', level: 'beginner', video: 'https://www.bodybuilding.com/exercises/barbell-bench-press-medium-grip')
-exercise2 = Exercise.create(name: 'incline dumbbell press', category: 'strength', main_muscle_worked: 'chest', equipment: 'dumbbell', level: 'beginner', video: 'https://www.bodybuilding.com/exercises/incline-dumbbell-press')
-exercise3 = Exercise.create(name: 'pushups', category: 'strength', main_muscle_worked: 'chest', equipment: 'body only', level: 'beginner', video: 'https://www.bodybuilding.com/exercises/pushups')
+exercise1 = Exercise.create(name: 'barbell bench press', category: 'strength', main_muscle_worked: 'chest', equipment: 'barbell', level: 'beginner', video: 'https://www.bodybuilding.com/exercises/barbell-bench-press-medium-grip',workout_id: workout2.id)
+exercise2 = Exercise.create(name: 'incline dumbbell press', category: 'strength', main_muscle_worked: 'chest', equipment: 'dumbbell', level: 'beginner', video: 'https://www.bodybuilding.com/exercises/incline-dumbbell-press',workout_id: workout2.id)
+exercise3 = Exercise.create(name: 'pushups', category: 'strength', main_muscle_worked: 'chest', equipment: 'body only', level: 'beginner', video: 'https://www.bodybuilding.com/exercises/pushups',workout_id: workout2.id)
 
-exercise4 = Exercise.create(name: 'single-leg press', category: 'strength', main_muscle_worked: 'quadriceps', equipment: 'machine', level: 'intermediate', video: 'https://www.bodybuilding.com/exercises/single-leg-press')
-exercise5 = Exercise.create(name: 'weighted jump squat', category: 'strength', main_muscle_worked: 'quadriceps', equipment: 'barbell', level: 'intermediate', video: 'https://www.bodybuilding.com/exercises/weighted-jump-squat-')
-exercise6 = Exercise.create(name:'kettlebell pistol squat', category: 'strength', main_muscle_worked: 'quadriceps', equipment: 'kettlebells', level: 'expert', video: 'https://www.bodybuilding.com/exercises/kettlebell-pistol-squat')
+exercise4 = Exercise.create(name: 'single-leg press', category: 'strength', main_muscle_worked: 'quadriceps', equipment: 'machine', level: 'intermediate', video: 'https://www.bodybuilding.com/exercises/single-leg-press',workout_id: workout1.id)
+exercise5 = Exercise.create(name: 'weighted jump squat', category: 'strength', main_muscle_worked: 'quadriceps', equipment: 'barbell', level: 'intermediate', video: 'https://www.bodybuilding.com/exercises/weighted-jump-squat-',workout_id: workout1.id)
+exercise6 = Exercise.create(name:'kettlebell pistol squat', category: 'strength', main_muscle_worked: 'quadriceps', equipment: 'kettlebells', level: 'expert', video: 'https://www.bodybuilding.com/exercises/kettlebell-pistol-squat',workout_id: workout1.id)
 
 
-exercise7 = Exercise.create(name:'one-arm dumbbell row', category: 'strength', main_muscle_worked: 'middle back', equipment: 'dumbbell', level: 'beginner', video: 'https://www.bodybuilding.com/exercises/one-arm-dumbbell-row')
-exercise8 = Exercise.create(name:'hyperextensions', category: 'strength', main_muscle_worked: 'lower back', equipment: 'machine', level: 'beginner', video: 'https://www.bodybuilding.com/exercises/hyperextensions-back-extensions')
-exercise9 = Exercise.create(name:'pullups', category: 'strength', main_muscle_worked: 'lats', equipment: 'body only', level: 'intermediate', video: 'https://www.bodybuilding.com/exercises/pullups')
+exercise7 = Exercise.create(name:'one-arm dumbbell row', category: 'strength', main_muscle_worked: 'middle back', equipment: 'dumbbell', level: 'beginner', video: 'https://www.bodybuilding.com/exercises/one-arm-dumbbell-row',workout_id: workout3.id)
+exercise8 = Exercise.create(name:'hyperextensions', category: 'strength', main_muscle_worked: 'lower back', equipment: 'machine', level: 'beginner', video: 'https://www.bodybuilding.com/exercises/hyperextensions-back-extensions',workout_id: workout3.id)
+exercise9 = Exercise.create(name:'pullups', category: 'strength', main_muscle_worked: 'lats', equipment: 'body only', level: 'intermediate', video: 'https://www.bodybuilding.com/exercises/pullups',workout_id: workout3.id)
 
 
 stats1 = Stat.create(workout_id: workout1.id, exercise_id: exercise4.id, sets: 3, min_weight: 80, max_weight: 180, reps: 36)

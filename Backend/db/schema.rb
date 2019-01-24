@@ -19,8 +19,10 @@ ActiveRecord::Schema.define(version: 2019_01_23_182714) do
     t.string "equipment"
     t.string "level"
     t.string "video"
+    t.integer "workout_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["workout_id"], name: "index_exercises_on_workout_id"
   end
 
   create_table "stats", force: :cascade do |t|

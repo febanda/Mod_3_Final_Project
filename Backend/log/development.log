@@ -2948,3 +2948,945 @@ No serializer found for resource: #<Exercise id: 19, name: "barbell bench press"
 Completed 200 OK in 32ms (Views: 9.8ms | ActiveRecord: 0.9ms)
 
 
+Started GET "/api/v1/workouts" for 127.0.0.1 at 2019-01-23 18:59:16 -0600
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/franciscobanda/.rvm/gems/ruby-2.3.3/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by Api::V1::WorkoutsController#index as */*
+  [1m[36mWorkout Load (0.2ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts"[0m
+  ↳ app/controllers/api/v1/workouts_controller.rb:11
+No serializer found for resource: #<Workout id: 10, name: "Leg Day", created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Workout::ActiveRecord_Relation (0.66ms)
+Completed 200 OK in 31ms (Views: 17.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/v1/workouts" for 127.0.0.1 at 2019-01-24 08:03:44 -0600
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/franciscobanda/.rvm/gems/ruby-2.3.3/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by Api::V1::WorkoutsController#index as */*
+  [1m[36mWorkout Load (0.8ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts"[0m
+  ↳ app/controllers/api/v1/workouts_controller.rb:11
+No serializer found for resource: #<Workout id: 10, name: "Leg Day", created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Workout::ActiveRecord_Relation (0.59ms)
+Completed 200 OK in 23ms (Views: 11.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/api/v1/workouts" for 127.0.0.1 at 2019-01-24 08:03:49 -0600
+Processing by Api::V1::WorkoutsController#index as */*
+  [1m[36mWorkout Load (0.2ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts"[0m
+  ↳ app/controllers/api/v1/workouts_controller.rb:11
+No serializer found for resource: #<Workout id: 10, name: "Leg Day", created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Workout::ActiveRecord_Relation (0.86ms)
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/v1/workouts" for 127.0.0.1 at 2019-01-24 08:08:56 -0600
+Processing by Api::V1::WorkoutsController#index as */*
+  [1m[36mWorkout Load (0.2ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts"[0m
+  ↳ app/controllers/api/v1/workouts_controller.rb:11
+No serializer found for resource: #<Workout id: 10, name: "Leg Day", created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Workout::ActiveRecord_Relation (0.95ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/v1/workouts" for 127.0.0.1 at 2019-01-24 08:08:56 -0600
+Processing by Api::V1::WorkoutsController#index as */*
+  [1m[36mWorkout Load (0.4ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts"[0m
+  ↳ app/controllers/api/v1/workouts_controller.rb:11
+No serializer found for resource: #<Workout id: 10, name: "Leg Day", created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Workout::ActiveRecord_Relation (0.72ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/workouts" for 127.0.0.1 at 2019-01-24 08:09:35 -0600
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/franciscobanda/.rvm/gems/ruby-2.3.3/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by Api::V1::WorkoutsController#index as */*
+  [1m[36mWorkout Load (0.2ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts"[0m
+  ↳ app/controllers/api/v1/workouts_controller.rb:11
+No serializer found for resource: #<Workout id: 10, name: "Leg Day", created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Workout::ActiveRecord_Relation (1.57ms)
+Completed 200 OK in 39ms (Views: 21.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/api/v1/workouts" for 127.0.0.1 at 2019-01-24 08:41:37 -0600
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/franciscobanda/.rvm/gems/ruby-2.3.3/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by Api::V1::WorkoutsController#index as */*
+  [1m[36mWorkout Load (0.6ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts"[0m
+  ↳ app/controllers/api/v1/workouts_controller.rb:11
+No serializer found for resource: #<Workout id: 10, name: "Leg Day", created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Workout::ActiveRecord_Relation (0.75ms)
+Completed 200 OK in 28ms (Views: 14.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/api/v1/workouts" for 127.0.0.1 at 2019-01-24 08:50:00 -0600
+Processing by Api::V1::WorkoutsController#index as */*
+  [1m[36mWorkout Load (0.7ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts"[0m
+  ↳ app/controllers/api/v1/workouts_controller.rb:11
+No serializer found for resource: #<Workout id: 10, name: "Leg Day", created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Workout::ActiveRecord_Relation (0.77ms)
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/api/v1/workouts" for 127.0.0.1 at 2019-01-24 08:51:50 -0600
+Processing by Api::V1::WorkoutsController#index as */*
+  [1m[36mWorkout Load (0.5ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts"[0m
+  ↳ app/controllers/api/v1/workouts_controller.rb:11
+No serializer found for resource: #<Workout id: 10, name: "Leg Day", created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Workout::ActiveRecord_Relation (0.83ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/workouts" for 127.0.0.1 at 2019-01-24 08:53:25 -0600
+Processing by Api::V1::WorkoutsController#index as */*
+  [1m[36mWorkout Load (0.2ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts"[0m
+  ↳ app/controllers/api/v1/workouts_controller.rb:11
+No serializer found for resource: #<Workout id: 10, name: "Leg Day", created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Workout::ActiveRecord_Relation (1.06ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/v1/workouts" for 127.0.0.1 at 2019-01-24 08:53:26 -0600
+Processing by Api::V1::WorkoutsController#index as */*
+  [1m[36mWorkout Load (0.2ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts"[0m
+  ↳ app/controllers/api/v1/workouts_controller.rb:11
+No serializer found for resource: #<Workout id: 10, name: "Leg Day", created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Workout::ActiveRecord_Relation (0.86ms)
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/v1/workouts" for 127.0.0.1 at 2019-01-24 08:54:15 -0600
+Processing by Api::V1::WorkoutsController#index as */*
+  [1m[36mWorkout Load (0.2ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts"[0m
+  ↳ app/controllers/api/v1/workouts_controller.rb:11
+No serializer found for resource: #<Workout id: 10, name: "Leg Day", created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Workout::ActiveRecord_Relation (1.53ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/v1/workouts" for 127.0.0.1 at 2019-01-24 08:54:18 -0600
+Processing by Api::V1::WorkoutsController#index as */*
+  [1m[36mWorkout Load (0.2ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts"[0m
+  ↳ app/controllers/api/v1/workouts_controller.rb:11
+No serializer found for resource: #<Workout id: 10, name: "Leg Day", created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Workout::ActiveRecord_Relation (0.82ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/v1/workouts" for 127.0.0.1 at 2019-01-24 09:00:57 -0600
+Processing by Api::V1::WorkoutsController#index as */*
+  [1m[36mWorkout Load (0.7ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts"[0m
+  ↳ app/controllers/api/v1/workouts_controller.rb:11
+No serializer found for resource: #<Workout id: 10, name: "Leg Day", created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Workout::ActiveRecord_Relation (2.06ms)
+Completed 200 OK in 28ms (Views: 20.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/v1/workouts" for 127.0.0.1 at 2019-01-24 09:00:58 -0600
+Processing by Api::V1::WorkoutsController#index as */*
+  [1m[36mWorkout Load (0.4ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts"[0m
+  ↳ app/controllers/api/v1/workouts_controller.rb:11
+No serializer found for resource: #<Workout id: 10, name: "Leg Day", created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Workout::ActiveRecord_Relation (1.94ms)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/workouts" for 127.0.0.1 at 2019-01-24 09:33:01 -0600
+Processing by Api::V1::WorkoutsController#index as */*
+  [1m[36mWorkout Load (0.9ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts"[0m
+  ↳ app/controllers/api/v1/workouts_controller.rb:11
+No serializer found for resource: #<Workout id: 10, name: "Leg Day", created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Workout::ActiveRecord_Relation (2.0ms)
+Completed 200 OK in 18ms (Views: 12.5ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/api/v1/workouts" for 127.0.0.1 at 2019-01-24 09:56:35 -0600
+Started GET "/api/v1/exercises" for 127.0.0.1 at 2019-01-24 09:56:35 -0600
+Processing by Api::V1::WorkoutsController#index as */*
+Started GET "/api/v1/stats" for 127.0.0.1 at 2019-01-24 09:56:35 -0600
+  [1m[36mWorkout Load (0.7ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts"[0m
+  ↳ app/controllers/api/v1/workouts_controller.rb:11
+No serializer found for resource: #<Workout id: 10, name: "Leg Day", created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Workout::ActiveRecord_Relation (3.81ms)
+Completed 200 OK in 32ms (Views: 26.7ms | ActiveRecord: 1.4ms)
+
+
+Processing by Api::V1::ExercisesController#index as */*
+Processing by Api::V1::StatsController#index as */*
+  [1m[36mExercise Load (0.6ms)[0m  [1m[34mSELECT "exercises".* FROM "exercises"[0m
+  ↳ app/controllers/api/v1/exercises_controller.rb:11
+No serializer found for resource: #<Exercise id: 19, name: "barbell bench press", category: "strength", main_muscle_worked: "chest", equipment: "barbell", level: "beginner", video: "https://www.bodybuilding.com/exercises/barbell-ben...", created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+  [1m[36mStat Load (0.4ms)[0m  [1m[34mSELECT "stats".* FROM "stats"[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Exercise::ActiveRecord_Relation (4.72ms)
+  ↳ app/controllers/api/v1/stats_controller.rb:11
+Completed 200 OK in 89ms (Views: 45.1ms | ActiveRecord: 1.5ms)
+
+
+No serializer found for resource: #<Stat id: 1, sets: 3, min_weight: 80, max_weight: 180, reps: 36, workout_id: 10, exercise_id: 22, created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Stat::ActiveRecord_Relation (5.49ms)
+Completed 200 OK in 103ms (Views: 27.0ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/api/v1/exercises" for 127.0.0.1 at 2019-01-24 09:56:43 -0600
+Processing by Api::V1::ExercisesController#index as */*
+Started GET "/api/v1/workouts" for 127.0.0.1 at 2019-01-24 09:56:43 -0600
+Started GET "/api/v1/stats" for 127.0.0.1 at 2019-01-24 09:56:43 -0600
+  [1m[36mExercise Load (1.3ms)[0m  [1m[34mSELECT "exercises".* FROM "exercises"[0m
+Processing by Api::V1::WorkoutsController#index as */*
+Processing by Api::V1::StatsController#index as */*
+  ↳ app/controllers/api/v1/exercises_controller.rb:11
+  [1m[36mWorkout Load (0.2ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts"[0m
+  [1m[36mStat Load (0.3ms)[0m  [1m[34mSELECT "stats".* FROM "stats"[0m
+  ↳ app/controllers/api/v1/stats_controller.rb:11
+No serializer found for resource: #<Exercise id: 19, name: "barbell bench press", category: "strength", main_muscle_worked: "chest", equipment: "barbell", level: "beginner", video: "https://www.bodybuilding.com/exercises/barbell-ben...", created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+  ↳ app/controllers/api/v1/workouts_controller.rb:11
+No serializer found for resource: #<Stat id: 1, sets: 3, min_weight: 80, max_weight: 180, reps: 36, workout_id: 10, exercise_id: 22, created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Exercise::ActiveRecord_Relation (4.52ms)
+No serializer found for resource: #<Workout id: 10, name: "Leg Day", created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Stat::ActiveRecord_Relation (3.78ms)
+Completed 200 OK in 33ms (Views: 30.8ms | ActiveRecord: 1.7ms)
+
+
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Workout::ActiveRecord_Relation (1.14ms)
+Completed 200 OK in 30ms (Views: 28.1ms | ActiveRecord: 0.6ms)
+
+
+Completed 200 OK in 25ms (Views: 22.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/api/v1/workouts" for 127.0.0.1 at 2019-01-24 09:57:40 -0600
+Started GET "/api/v1/exercises" for 127.0.0.1 at 2019-01-24 09:57:40 -0600
+Processing by Api::V1::ExercisesController#index as */*
+Started GET "/api/v1/stats" for 127.0.0.1 at 2019-01-24 09:57:40 -0600
+Processing by Api::V1::WorkoutsController#index as */*
+  [1m[36mExercise Load (0.3ms)[0m  [1m[34mSELECT "exercises".* FROM "exercises"[0m
+  ↳ app/controllers/api/v1/exercises_controller.rb:11
+  [1m[36mWorkout Load (0.6ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts"[0m
+  ↳ app/controllers/api/v1/workouts_controller.rb:11
+No serializer found for resource: #<Workout id: 10, name: "Leg Day", created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+Processing by Api::V1::StatsController#index as */*
+No serializer found for resource: #<Exercise id: 19, name: "barbell bench press", category: "strength", main_muscle_worked: "chest", equipment: "barbell", level: "beginner", video: "https://www.bodybuilding.com/exercises/barbell-ben...", created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Workout::ActiveRecord_Relation (1.68ms)
+  [1m[36mStat Load (0.4ms)[0m  [1m[34mSELECT "stats".* FROM "stats"[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Exercise::ActiveRecord_Relation (3.17ms)
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.6ms)
+
+
+  ↳ app/controllers/api/v1/stats_controller.rb:11
+Completed 200 OK in 25ms (Views: 23.8ms | ActiveRecord: 0.3ms)
+
+
+No serializer found for resource: #<Stat id: 1, sets: 3, min_weight: 80, max_weight: 180, reps: 36, workout_id: 10, exercise_id: 22, created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Stat::ActiveRecord_Relation (2.25ms)
+Completed 200 OK in 20ms (Views: 15.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/workouts" for 127.0.0.1 at 2019-01-24 09:57:41 -0600
+Processing by Api::V1::WorkoutsController#index as */*
+  [1m[36mWorkout Load (0.2ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts"[0m
+  ↳ app/controllers/api/v1/workouts_controller.rb:11
+No serializer found for resource: #<Workout id: 10, name: "Leg Day", created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Workout::ActiveRecord_Relation (0.7ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/stats" for 127.0.0.1 at 2019-01-24 09:57:41 -0600
+Processing by Api::V1::StatsController#index as */*
+  [1m[36mStat Load (0.4ms)[0m  [1m[34mSELECT "stats".* FROM "stats"[0m
+  ↳ app/controllers/api/v1/stats_controller.rb:11
+No serializer found for resource: #<Stat id: 1, sets: 3, min_weight: 80, max_weight: 180, reps: 36, workout_id: 10, exercise_id: 22, created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Stat::ActiveRecord_Relation (2.5ms)
+Completed 200 OK in 7ms (Views: 4.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/exercises" for 127.0.0.1 at 2019-01-24 09:57:41 -0600
+Processing by Api::V1::ExercisesController#index as */*
+  [1m[36mExercise Load (0.9ms)[0m  [1m[34mSELECT "exercises".* FROM "exercises"[0m
+  ↳ app/controllers/api/v1/exercises_controller.rb:11
+No serializer found for resource: #<Exercise id: 19, name: "barbell bench press", category: "strength", main_muscle_worked: "chest", equipment: "barbell", level: "beginner", video: "https://www.bodybuilding.com/exercises/barbell-ben...", created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Exercise::ActiveRecord_Relation (1.69ms)
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/v1/workouts" for 127.0.0.1 at 2019-01-24 09:58:08 -0600
+Started GET "/api/v1/exercises" for 127.0.0.1 at 2019-01-24 09:58:08 -0600
+Processing by Api::V1::ExercisesController#index as */*
+Started GET "/api/v1/stats" for 127.0.0.1 at 2019-01-24 09:58:08 -0600
+Processing by Api::V1::StatsController#index as */*
+  [1m[36mExercise Load (0.2ms)[0m  [1m[34mSELECT "exercises".* FROM "exercises"[0m
+  ↳ app/controllers/api/v1/exercises_controller.rb:11
+  [1m[36mStat Load (0.2ms)[0m  [1m[34mSELECT "stats".* FROM "stats"[0m
+  ↳ app/controllers/api/v1/stats_controller.rb:11
+Processing by Api::V1::WorkoutsController#index as */*
+No serializer found for resource: #<Exercise id: 19, name: "barbell bench press", category: "strength", main_muscle_worked: "chest", equipment: "barbell", level: "beginner", video: "https://www.bodybuilding.com/exercises/barbell-ben...", created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+No serializer found for resource: #<Stat id: 1, sets: 3, min_weight: 80, max_weight: 180, reps: 36, workout_id: 10, exercise_id: 22, created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+  [1m[36mWorkout Load (0.5ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts"[0m
+  ↳ app/controllers/api/v1/workouts_controller.rb:11
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Exercise::ActiveRecord_Relation (2.73ms)
+Completed 200 OK in 22ms (Views: 21.3ms | ActiveRecord: 0.2ms)
+
+
+No serializer found for resource: #<Workout id: 10, name: "Leg Day", created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Stat::ActiveRecord_Relation (3.5ms)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.2ms)
+
+
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Workout::ActiveRecord_Relation (1.18ms)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/stats" for 127.0.0.1 at 2019-01-24 09:58:09 -0600
+Started GET "/api/v1/exercises" for 127.0.0.1 at 2019-01-24 09:58:09 -0600
+Processing by Api::V1::ExercisesController#index as */*
+Processing by Api::V1::StatsController#index as */*
+Started GET "/api/v1/workouts" for 127.0.0.1 at 2019-01-24 09:58:09 -0600
+  [1m[36mExercise Load (0.3ms)[0m  [1m[34mSELECT "exercises".* FROM "exercises"[0m
+  ↳ app/controllers/api/v1/exercises_controller.rb:11
+  [1m[36mStat Load (0.2ms)[0m  [1m[34mSELECT "stats".* FROM "stats"[0m
+Processing by Api::V1::WorkoutsController#index as */*
+  [1m[36mWorkout Load (0.2ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts"[0m
+No serializer found for resource: #<Exercise id: 19, name: "barbell bench press", category: "strength", main_muscle_worked: "chest", equipment: "barbell", level: "beginner", video: "https://www.bodybuilding.com/exercises/barbell-ben...", created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+  ↳ app/controllers/api/v1/workouts_controller.rb:11
+  ↳ app/controllers/api/v1/stats_controller.rb:11
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Exercise::ActiveRecord_Relation (3.91ms)
+No serializer found for resource: #<Workout id: 10, name: "Leg Day", created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+No serializer found for resource: #<Stat id: 1, sets: 3, min_weight: 80, max_weight: 180, reps: 36, workout_id: 10, exercise_id: 22, created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.6ms)
+
+
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Workout::ActiveRecord_Relation (0.52ms)
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Stat::ActiveRecord_Relation (2.14ms)
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.2ms)
+
+
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/v1/workouts" for 127.0.0.1 at 2019-01-24 09:58:24 -0600
+Processing by Api::V1::WorkoutsController#index as */*
+  [1m[36mWorkout Load (0.3ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts"[0m
+  ↳ app/controllers/api/v1/workouts_controller.rb:11
+No serializer found for resource: #<Workout id: 10, name: "Leg Day", created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Workout::ActiveRecord_Relation (0.56ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/exercises" for 127.0.0.1 at 2019-01-24 09:58:24 -0600
+Processing by Api::V1::ExercisesController#index as */*
+Started GET "/api/v1/stats" for 127.0.0.1 at 2019-01-24 09:58:24 -0600
+  [1m[36mExercise Load (0.3ms)[0m  [1m[34mSELECT "exercises".* FROM "exercises"[0m
+Processing by Api::V1::StatsController#index as */*
+  ↳ app/controllers/api/v1/exercises_controller.rb:11
+  [1m[36mStat Load (0.2ms)[0m  [1m[34mSELECT "stats".* FROM "stats"[0m
+No serializer found for resource: #<Exercise id: 19, name: "barbell bench press", category: "strength", main_muscle_worked: "chest", equipment: "barbell", level: "beginner", video: "https://www.bodybuilding.com/exercises/barbell-ben...", created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+  ↳ app/controllers/api/v1/stats_controller.rb:11
+No serializer found for resource: #<Stat id: 1, sets: 3, min_weight: 80, max_weight: 180, reps: 36, workout_id: 10, exercise_id: 22, created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Exercise::ActiveRecord_Relation (2.73ms)
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Stat::ActiveRecord_Relation (2.44ms)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.3ms)
+
+
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stats" for 127.0.0.1 at 2019-01-24 10:01:15 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/stats"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/api/v1/stats" for 127.0.0.1 at 2019-01-24 10:01:27 -0600
+Processing by Api::V1::StatsController#index as HTML
+  [1m[36mStat Load (0.4ms)[0m  [1m[34mSELECT "stats".* FROM "stats"[0m
+  ↳ app/controllers/api/v1/stats_controller.rb:11
+No serializer found for resource: #<Stat id: 1, sets: 3, min_weight: 80, max_weight: 180, reps: 36, workout_id: 10, exercise_id: 22, created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Stat::ActiveRecord_Relation (2.5ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/workouts" for 127.0.0.1 at 2019-01-24 10:06:21 -0600
+Started GET "/api/v1/exercises" for 127.0.0.1 at 2019-01-24 10:06:21 -0600
+Processing by Api::V1::WorkoutsController#index as */*
+Started GET "/api/v1/stats" for 127.0.0.1 at 2019-01-24 10:06:21 -0600
+Processing by Api::V1::ExercisesController#index as */*
+  [1m[36mWorkout Load (0.2ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts"[0m
+  ↳ app/controllers/api/v1/workouts_controller.rb:11
+Processing by Api::V1::StatsController#index as */*
+  [1m[36mExercise Load (0.3ms)[0m  [1m[34mSELECT "exercises".* FROM "exercises"[0m
+  ↳ app/controllers/api/v1/exercises_controller.rb:11
+No serializer found for resource: #<Workout id: 10, name: "Leg Day", created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Workout::ActiveRecord_Relation (0.92ms)
+  [1m[36mStat Load (1.6ms)[0m  [1m[34mSELECT "stats".* FROM "stats"[0m
+  ↳ app/controllers/api/v1/stats_controller.rb:11
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.2ms)
+
+
+No serializer found for resource: #<Exercise id: 19, name: "barbell bench press", category: "strength", main_muscle_worked: "chest", equipment: "barbell", level: "beginner", video: "https://www.bodybuilding.com/exercises/barbell-ben...", created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+No serializer found for resource: #<Stat id: 1, sets: 3, min_weight: 80, max_weight: 180, reps: 36, workout_id: 10, exercise_id: 22, created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Exercise::ActiveRecord_Relation (3.34ms)
+Completed 200 OK in 23ms (Views: 21.7ms | ActiveRecord: 0.9ms)
+
+
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Stat::ActiveRecord_Relation (3.19ms)
+Completed 200 OK in 20ms (Views: 17.7ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/api/v1/workouts" for 127.0.0.1 at 2019-01-24 10:08:46 -0600
+Started GET "/api/v1/exercises" for 127.0.0.1 at 2019-01-24 10:08:46 -0600
+Processing by Api::V1::WorkoutsController#index as */*
+Processing by Api::V1::ExercisesController#index as */*
+  [1m[36mWorkout Load (0.2ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts"[0m
+  ↳ app/controllers/api/v1/workouts_controller.rb:11
+  [1m[36mExercise Load (0.2ms)[0m  [1m[34mSELECT "exercises".* FROM "exercises"[0m
+  ↳ app/controllers/api/v1/exercises_controller.rb:11
+No serializer found for resource: #<Workout id: 10, name: "Leg Day", created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+No serializer found for resource: #<Exercise id: 19, name: "barbell bench press", category: "strength", main_muscle_worked: "chest", equipment: "barbell", level: "beginner", video: "https://www.bodybuilding.com/exercises/barbell-ben...", created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+Started GET "/api/v1/stats" for 127.0.0.1 at 2019-01-24 10:08:46 -0600
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Workout::ActiveRecord_Relation (0.66ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.6ms)
+
+
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Exercise::ActiveRecord_Relation (3.09ms)
+Processing by Api::V1::StatsController#index as */*
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.2ms)
+
+
+  [1m[36mStat Load (0.3ms)[0m  [1m[34mSELECT "stats".* FROM "stats"[0m
+  ↳ app/controllers/api/v1/stats_controller.rb:11
+No serializer found for resource: #<Stat id: 1, sets: 3, min_weight: 80, max_weight: 180, reps: 36, workout_id: 10, exercise_id: 22, created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Stat::ActiveRecord_Relation (2.74ms)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/exercises" for 127.0.0.1 at 2019-01-24 10:09:55 -0600
+Processing by Api::V1::ExercisesController#index as HTML
+  [1m[36mExercise Load (0.3ms)[0m  [1m[34mSELECT "exercises".* FROM "exercises"[0m
+  ↳ app/controllers/api/v1/exercises_controller.rb:11
+No serializer found for resource: #<Exercise id: 19, name: "barbell bench press", category: "strength", main_muscle_worked: "chest", equipment: "barbell", level: "beginner", video: "https://www.bodybuilding.com/exercises/barbell-ben...", created_at: "2019-01-23 21:36:51", updated_at: "2019-01-23 21:36:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Exercise::ActiveRecord_Relation (2.65ms)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.3ms)
+
+
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ bin/rails:9
+  [1m[35m (4.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateWorkouts (20190123180455)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "workouts" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190123180455_create_workouts.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190123180455"]]
+  ↳ bin/rails:9
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+Migrating to CreateExercises (20190123182408)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "exercises" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "category" varchar, "main_muscle_worked" varchar, "equipment" varchar, "level" varchar, "video" varchar, "workout_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, CONSTRAINT "fk_rails_ee53b1f0ea"
+FOREIGN KEY ("workout_id")
+  REFERENCES "workouts" ("id")
+)[0m
+  ↳ db/migrate/20190123182408_create_exercises.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_exercises_on_workout_id" ON "exercises" ("workout_id")[0m
+  ↳ db/migrate/20190123182408_create_exercises.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190123182408"]]
+  ↳ bin/rails:9
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+Migrating to CreateStats (20190123182714)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "stats" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "sets" integer, "min_weight" integer, "max_weight" integer, "reps" integer, "workout_id" integer, "exercise_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, CONSTRAINT "fk_rails_5c65abf6da"
+FOREIGN KEY ("workout_id")
+  REFERENCES "workouts" ("id")
+, CONSTRAINT "fk_rails_c38b60697e"
+FOREIGN KEY ("exercise_id")
+  REFERENCES "exercises" ("id")
+)[0m
+  ↳ db/migrate/20190123182714_create_stats.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_stats_on_workout_id" ON "stats" ("workout_id")[0m
+  ↳ db/migrate/20190123182714_create_stats.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE  INDEX "index_stats_on_exercise_id" ON "stats" ("exercise_id")[0m
+  ↳ db/migrate/20190123182714_create_stats.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190123182714"]]
+  ↳ bin/rails:9
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-01-24 16:19:49.610462"], ["updated_at", "2019-01-24 16:19:49.610462"]]
+  ↳ bin/rails:9
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mWorkout Load (0.3ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts"[0m
+  ↳ db/seeds.rb:9
+  [1m[36mStat Load (0.5ms)[0m  [1m[34mSELECT "stats".* FROM "stats"[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mWorkout Load (0.1ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts"[0m
+  ↳ db/seeds.rb:9
+  [1m[36mStat Load (0.1ms)[0m  [1m[34mSELECT "stats".* FROM "stats"[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mWorkout Load (0.1ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts"[0m
+  ↳ db/seeds.rb:9
+  [1m[36mStat Load (0.1ms)[0m  [1m[34mSELECT "stats".* FROM "stats"[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mWorkout Load (0.1ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts"[0m
+  ↳ db/seeds.rb:9
+  [1m[36mStat Load (0.1ms)[0m  [1m[34mSELECT "stats".* FROM "stats"[0m
+  ↳ db/seeds.rb:10
+  [1m[36mExercise Load (2.8ms)[0m  [1m[34mSELECT "exercises".* FROM "exercises"[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mWorkout Create (1.1ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Leg Day"], ["created_at", "2019-01-24 16:22:14.674321"], ["updated_at", "2019-01-24 16:22:14.674321"]]
+  ↳ db/seeds.rb:13
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[36mWorkout Create (0.4ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Chest Day"], ["created_at", "2019-01-24 16:22:14.679216"], ["updated_at", "2019-01-24 16:22:14.679216"]]
+  ↳ db/seeds.rb:14
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mWorkout Create (0.4ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Back Day"], ["created_at", "2019-01-24 16:22:14.682448"], ["updated_at", "2019-01-24 16:22:14.682448"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:20
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:20
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:23
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:23
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:28
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:28
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:29
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:29
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:32
+  [1m[36mWorkout Load (0.2ms)[0m  [1m[34mSELECT  "workouts".* FROM "workouts" WHERE "workouts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:32
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:32
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mWorkout Load (0.1ms)[0m  [1m[34mSELECT  "workouts".* FROM "workouts" WHERE "workouts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:33
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:34
+  [1m[36mWorkout Load (0.1ms)[0m  [1m[34mSELECT  "workouts".* FROM "workouts" WHERE "workouts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:34
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:34
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:36
+  [1m[36mWorkout Load (0.1ms)[0m  [1m[34mSELECT  "workouts".* FROM "workouts" WHERE "workouts"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:37
+  [1m[36mWorkout Load (0.1ms)[0m  [1m[34mSELECT  "workouts".* FROM "workouts" WHERE "workouts"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:37
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:37
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWorkout Load (0.1ms)[0m  [1m[34mSELECT  "workouts".* FROM "workouts" WHERE "workouts"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:40
+  [1m[36mWorkout Load (0.1ms)[0m  [1m[34mSELECT  "workouts".* FROM "workouts" WHERE "workouts"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ db/seeds.rb:40
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:40
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:41
+  [1m[36mWorkout Load (0.1ms)[0m  [1m[34mSELECT  "workouts".* FROM "workouts" WHERE "workouts"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ db/seeds.rb:41
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:41
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:42
+  [1m[36mWorkout Load (0.1ms)[0m  [1m[34mSELECT  "workouts".* FROM "workouts" WHERE "workouts"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ db/seeds.rb:42
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:42
+  [1m[36mExercise Load (0.6ms)[0m  [1m[34mSELECT  "exercises".* FROM "exercises" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/api/v1/exercises" for 127.0.0.1 at 2019-01-24 10:23:07 -0600
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/franciscobanda/.rvm/gems/ruby-2.3.3/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by Api::V1::ExercisesController#index as HTML
+  [1m[36mExercise Load (0.4ms)[0m  [1m[34mSELECT "exercises".* FROM "exercises"[0m
+  ↳ app/controllers/api/v1/exercises_controller.rb:11
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.18ms)
+Completed 200 OK in 33ms (Views: 14.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/v1/workouts" for 127.0.0.1 at 2019-01-24 10:23:13 -0600
+Processing by Api::V1::WorkoutsController#index as HTML
+  [1m[36mWorkout Load (0.7ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts"[0m
+  ↳ app/controllers/api/v1/workouts_controller.rb:11
+No serializer found for resource: #<Workout id: 1, name: "Leg Day", created_at: "2019-01-24 16:22:14", updated_at: "2019-01-24 16:22:14">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Workout::ActiveRecord_Relation (0.7ms)
+Completed 200 OK in 25ms (Views: 14.2ms | ActiveRecord: 1.2ms)
+
+
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mWorkout Load (0.5ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts"[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mWorkout Destroy (1.8ms)[0m  [1m[31mDELETE FROM "workouts" WHERE "workouts"."id" = ?[0m  [["id", 1]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mWorkout Destroy (0.3ms)[0m  [1m[31mDELETE FROM "workouts" WHERE "workouts"."id" = ?[0m  [["id", 2]]
+  ↳ db/seeds.rb:9
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mWorkout Destroy (0.4ms)[0m  [1m[31mDELETE FROM "workouts" WHERE "workouts"."id" = ?[0m  [["id", 3]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mStat Load (0.4ms)[0m  [1m[34mSELECT "stats".* FROM "stats"[0m
+  ↳ db/seeds.rb:10
+  [1m[36mExercise Load (0.5ms)[0m  [1m[34mSELECT "exercises".* FROM "exercises"[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mWorkout Create (0.6ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Leg Day"], ["created_at", "2019-01-24 16:25:27.282283"], ["updated_at", "2019-01-24 16:25:27.282283"]]
+  ↳ db/seeds.rb:13
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[36mWorkout Create (0.3ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Chest Day"], ["created_at", "2019-01-24 16:25:27.286233"], ["updated_at", "2019-01-24 16:25:27.286233"]]
+  ↳ db/seeds.rb:14
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mWorkout Create (0.3ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Back Day"], ["created_at", "2019-01-24 16:25:27.288415"], ["updated_at", "2019-01-24 16:25:27.288415"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[36mWorkout Load (0.2ms)[0m  [1m[34mSELECT  "workouts".* FROM "workouts" WHERE "workouts"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ db/seeds.rb:18
+  [1m[36mExercise Create (0.3ms)[0m  [1m[32mINSERT INTO "exercises" ("name", "category", "main_muscle_worked", "equipment", "level", "video", "workout_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "barbell bench press"], ["category", "strength"], ["main_muscle_worked", "chest"], ["equipment", "barbell"], ["level", "beginner"], ["video", "https://www.bodybuilding.com/exercises/barbell-bench-press-medium-grip"], ["workout_id", 5], ["created_at", "2019-01-24 16:25:27.309444"], ["updated_at", "2019-01-24 16:25:27.309444"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[36mWorkout Load (0.1ms)[0m  [1m[34mSELECT  "workouts".* FROM "workouts" WHERE "workouts"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ db/seeds.rb:19
+  [1m[36mExercise Create (0.4ms)[0m  [1m[32mINSERT INTO "exercises" ("name", "category", "main_muscle_worked", "equipment", "level", "video", "workout_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "incline dumbbell press"], ["category", "strength"], ["main_muscle_worked", "chest"], ["equipment", "dumbbell"], ["level", "beginner"], ["video", "https://www.bodybuilding.com/exercises/incline-dumbbell-press"], ["workout_id", 5], ["created_at", "2019-01-24 16:25:27.314146"], ["updated_at", "2019-01-24 16:25:27.314146"]]
+  ↳ db/seeds.rb:19
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:20
+  [1m[36mWorkout Load (0.1ms)[0m  [1m[34mSELECT  "workouts".* FROM "workouts" WHERE "workouts"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ db/seeds.rb:20
+  [1m[36mExercise Create (0.3ms)[0m  [1m[32mINSERT INTO "exercises" ("name", "category", "main_muscle_worked", "equipment", "level", "video", "workout_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "pushups"], ["category", "strength"], ["main_muscle_worked", "chest"], ["equipment", "body only"], ["level", "beginner"], ["video", "https://www.bodybuilding.com/exercises/pushups"], ["workout_id", 5], ["created_at", "2019-01-24 16:25:27.318637"], ["updated_at", "2019-01-24 16:25:27.318637"]]
+  ↳ db/seeds.rb:20
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:20
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mWorkout Load (0.1ms)[0m  [1m[34mSELECT  "workouts".* FROM "workouts" WHERE "workouts"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:22
+  [1m[36mExercise Create (0.5ms)[0m  [1m[32mINSERT INTO "exercises" ("name", "category", "main_muscle_worked", "equipment", "level", "video", "workout_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "single-leg press"], ["category", "strength"], ["main_muscle_worked", "quadriceps"], ["equipment", "machine"], ["level", "intermediate"], ["video", "https://www.bodybuilding.com/exercises/single-leg-press"], ["workout_id", 4], ["created_at", "2019-01-24 16:25:27.323111"], ["updated_at", "2019-01-24 16:25:27.323111"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:23
+  [1m[36mWorkout Load (0.1ms)[0m  [1m[34mSELECT  "workouts".* FROM "workouts" WHERE "workouts"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:23
+  [1m[36mExercise Create (0.3ms)[0m  [1m[32mINSERT INTO "exercises" ("name", "category", "main_muscle_worked", "equipment", "level", "video", "workout_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "weighted jump squat"], ["category", "strength"], ["main_muscle_worked", "quadriceps"], ["equipment", "barbell"], ["level", "intermediate"], ["video", "https://www.bodybuilding.com/exercises/weighted-jump-squat-"], ["workout_id", 4], ["created_at", "2019-01-24 16:25:27.327231"], ["updated_at", "2019-01-24 16:25:27.327231"]]
+  ↳ db/seeds.rb:23
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:23
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[36mWorkout Load (0.1ms)[0m  [1m[34mSELECT  "workouts".* FROM "workouts" WHERE "workouts"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:24
+  [1m[36mExercise Create (0.3ms)[0m  [1m[32mINSERT INTO "exercises" ("name", "category", "main_muscle_worked", "equipment", "level", "video", "workout_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "kettlebell pistol squat"], ["category", "strength"], ["main_muscle_worked", "quadriceps"], ["equipment", "kettlebells"], ["level", "expert"], ["video", "https://www.bodybuilding.com/exercises/kettlebell-pistol-squat"], ["workout_id", 4], ["created_at", "2019-01-24 16:25:27.331038"], ["updated_at", "2019-01-24 16:25:27.331038"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mWorkout Load (0.1ms)[0m  [1m[34mSELECT  "workouts".* FROM "workouts" WHERE "workouts"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ db/seeds.rb:27
+  [1m[36mExercise Create (0.4ms)[0m  [1m[32mINSERT INTO "exercises" ("name", "category", "main_muscle_worked", "equipment", "level", "video", "workout_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "one-arm dumbbell row"], ["category", "strength"], ["main_muscle_worked", "middle back"], ["equipment", "dumbbell"], ["level", "beginner"], ["video", "https://www.bodybuilding.com/exercises/one-arm-dumbbell-row"], ["workout_id", 6], ["created_at", "2019-01-24 16:25:27.334345"], ["updated_at", "2019-01-24 16:25:27.334345"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:28
+  [1m[36mWorkout Load (0.1ms)[0m  [1m[34mSELECT  "workouts".* FROM "workouts" WHERE "workouts"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ db/seeds.rb:28
+  [1m[36mExercise Create (0.3ms)[0m  [1m[32mINSERT INTO "exercises" ("name", "category", "main_muscle_worked", "equipment", "level", "video", "workout_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "hyperextensions"], ["category", "strength"], ["main_muscle_worked", "lower back"], ["equipment", "machine"], ["level", "beginner"], ["video", "https://www.bodybuilding.com/exercises/hyperextensions-back-extensions"], ["workout_id", 6], ["created_at", "2019-01-24 16:25:27.338421"], ["updated_at", "2019-01-24 16:25:27.338421"]]
+  ↳ db/seeds.rb:28
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:28
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:29
+  [1m[36mWorkout Load (0.1ms)[0m  [1m[34mSELECT  "workouts".* FROM "workouts" WHERE "workouts"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ db/seeds.rb:29
+  [1m[36mExercise Create (0.3ms)[0m  [1m[32mINSERT INTO "exercises" ("name", "category", "main_muscle_worked", "equipment", "level", "video", "workout_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "pullups"], ["category", "strength"], ["main_muscle_worked", "lats"], ["equipment", "body only"], ["level", "intermediate"], ["video", "https://www.bodybuilding.com/exercises/pullups"], ["workout_id", 6], ["created_at", "2019-01-24 16:25:27.341818"], ["updated_at", "2019-01-24 16:25:27.341818"]]
+  ↳ db/seeds.rb:29
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:29
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:32
+  [1m[36mWorkout Load (0.1ms)[0m  [1m[34mSELECT  "workouts".* FROM "workouts" WHERE "workouts"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:32
+  [1m[36mExercise Load (0.1ms)[0m  [1m[34mSELECT  "exercises".* FROM "exercises" WHERE "exercises"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:32
+  [1m[36mStat Create (0.6ms)[0m  [1m[32mINSERT INTO "stats" ("sets", "min_weight", "max_weight", "reps", "workout_id", "exercise_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["sets", 3], ["min_weight", 80], ["max_weight", 180], ["reps", 36], ["workout_id", 4], ["exercise_id", 4], ["created_at", "2019-01-24 16:25:27.359359"], ["updated_at", "2019-01-24 16:25:27.359359"]]
+  ↳ db/seeds.rb:32
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:32
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mWorkout Load (0.1ms)[0m  [1m[34mSELECT  "workouts".* FROM "workouts" WHERE "workouts"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:33
+  [1m[36mExercise Load (0.0ms)[0m  [1m[34mSELECT  "exercises".* FROM "exercises" WHERE "exercises"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ db/seeds.rb:33
+  [1m[36mStat Create (0.3ms)[0m  [1m[32mINSERT INTO "stats" ("sets", "min_weight", "max_weight", "reps", "workout_id", "exercise_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["sets", 4], ["min_weight", 40], ["max_weight", 100], ["reps", 30], ["workout_id", 4], ["exercise_id", 5], ["created_at", "2019-01-24 16:25:27.364145"], ["updated_at", "2019-01-24 16:25:27.364145"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:34
+  [1m[36mWorkout Load (0.1ms)[0m  [1m[34mSELECT  "workouts".* FROM "workouts" WHERE "workouts"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:34
+  [1m[36mExercise Load (0.1ms)[0m  [1m[34mSELECT  "exercises".* FROM "exercises" WHERE "exercises"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ db/seeds.rb:34
+  [1m[36mStat Create (0.3ms)[0m  [1m[32mINSERT INTO "stats" ("sets", "min_weight", "max_weight", "reps", "workout_id", "exercise_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["sets", 5], ["min_weight", 15], ["max_weight", 25], ["reps", 40], ["workout_id", 4], ["exercise_id", 6], ["created_at", "2019-01-24 16:25:27.367661"], ["updated_at", "2019-01-24 16:25:27.367661"]]
+  ↳ db/seeds.rb:34
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:34
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:36
+  [1m[36mWorkout Load (0.2ms)[0m  [1m[34mSELECT  "workouts".* FROM "workouts" WHERE "workouts"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[36mExercise Load (0.1ms)[0m  [1m[34mSELECT  "exercises".* FROM "exercises" WHERE "exercises"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[36mStat Create (0.4ms)[0m  [1m[32mINSERT INTO "stats" ("sets", "min_weight", "max_weight", "reps", "workout_id", "exercise_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["sets", 3], ["min_weight", 185], ["max_weight", 315], ["reps", 40], ["workout_id", 5], ["exercise_id", 1], ["created_at", "2019-01-24 16:25:27.375602"], ["updated_at", "2019-01-24 16:25:27.375602"]]
+  ↳ db/seeds.rb:36
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:37
+  [1m[36mWorkout Load (0.1ms)[0m  [1m[34mSELECT  "workouts".* FROM "workouts" WHERE "workouts"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ db/seeds.rb:37
+  [1m[36mExercise Load (0.1ms)[0m  [1m[34mSELECT  "exercises".* FROM "exercises" WHERE "exercises"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:37
+  [1m[36mStat Create (0.3ms)[0m  [1m[32mINSERT INTO "stats" ("sets", "min_weight", "max_weight", "reps", "workout_id", "exercise_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["sets", 4], ["min_weight", 50], ["max_weight", 110], ["reps", 40], ["workout_id", 5], ["exercise_id", 2], ["created_at", "2019-01-24 16:25:27.380406"], ["updated_at", "2019-01-24 16:25:27.380406"]]
+  ↳ db/seeds.rb:37
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:37
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWorkout Load (0.1ms)[0m  [1m[34mSELECT  "workouts".* FROM "workouts" WHERE "workouts"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ db/seeds.rb:38
+  [1m[36mExercise Load (0.0ms)[0m  [1m[34mSELECT  "exercises".* FROM "exercises" WHERE "exercises"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ db/seeds.rb:38
+  [1m[36mStat Create (0.4ms)[0m  [1m[32mINSERT INTO "stats" ("sets", "min_weight", "max_weight", "reps", "workout_id", "exercise_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["sets", 1], ["min_weight", 0], ["max_weight", 0], ["reps", 100], ["workout_id", 5], ["exercise_id", 3], ["created_at", "2019-01-24 16:25:27.383922"], ["updated_at", "2019-01-24 16:25:27.383922"]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:40
+  [1m[36mWorkout Load (0.1ms)[0m  [1m[34mSELECT  "workouts".* FROM "workouts" WHERE "workouts"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ db/seeds.rb:40
+  [1m[36mExercise Load (0.1ms)[0m  [1m[34mSELECT  "exercises".* FROM "exercises" WHERE "exercises"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ db/seeds.rb:40
+  [1m[36mStat Create (0.5ms)[0m  [1m[32mINSERT INTO "stats" ("sets", "min_weight", "max_weight", "reps", "workout_id", "exercise_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["sets", 3], ["min_weight", 70], ["max_weight", 120], ["reps", 36], ["workout_id", 6], ["exercise_id", 7], ["created_at", "2019-01-24 16:25:27.388449"], ["updated_at", "2019-01-24 16:25:27.388449"]]
+  ↳ db/seeds.rb:40
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:40
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:41
+  [1m[36mWorkout Load (0.1ms)[0m  [1m[34mSELECT  "workouts".* FROM "workouts" WHERE "workouts"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ db/seeds.rb:41
+  [1m[36mExercise Load (0.0ms)[0m  [1m[34mSELECT  "exercises".* FROM "exercises" WHERE "exercises"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ db/seeds.rb:41
+  [1m[36mStat Create (0.3ms)[0m  [1m[32mINSERT INTO "stats" ("sets", "min_weight", "max_weight", "reps", "workout_id", "exercise_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["sets", 3], ["min_weight", 25], ["max_weight", 45], ["reps", 40], ["workout_id", 6], ["exercise_id", 8], ["created_at", "2019-01-24 16:25:27.392543"], ["updated_at", "2019-01-24 16:25:27.392543"]]
+  ↳ db/seeds.rb:41
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:41
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:42
+  [1m[36mWorkout Load (0.1ms)[0m  [1m[34mSELECT  "workouts".* FROM "workouts" WHERE "workouts"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ db/seeds.rb:42
+  [1m[36mExercise Load (0.1ms)[0m  [1m[34mSELECT  "exercises".* FROM "exercises" WHERE "exercises"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ db/seeds.rb:42
+  [1m[36mStat Create (0.3ms)[0m  [1m[32mINSERT INTO "stats" ("sets", "min_weight", "max_weight", "reps", "workout_id", "exercise_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["sets", 1], ["min_weight", 0], ["max_weight", 0], ["reps", 100], ["workout_id", 6], ["exercise_id", 9], ["created_at", "2019-01-24 16:25:27.397064"], ["updated_at", "2019-01-24 16:25:27.397064"]]
+  ↳ db/seeds.rb:42
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:42
+Started GET "/api/v1/workouts" for 127.0.0.1 at 2019-01-24 10:25:32 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/franciscobanda/.rvm/gems/ruby-2.3.3/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by Api::V1::WorkoutsController#index as HTML
+  [1m[36mWorkout Load (0.3ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts"[0m
+  ↳ app/controllers/api/v1/workouts_controller.rb:11
+No serializer found for resource: #<Workout id: 4, name: "Leg Day", created_at: "2019-01-24 16:25:27", updated_at: "2019-01-24 16:25:27">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Workout::ActiveRecord_Relation (0.74ms)
+Completed 200 OK in 26ms (Views: 12.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/v1/workouts" for 127.0.0.1 at 2019-01-24 10:25:34 -0600
+Processing by Api::V1::WorkoutsController#index as HTML
+  [1m[36mWorkout Load (0.2ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts"[0m
+  ↳ app/controllers/api/v1/workouts_controller.rb:11
+No serializer found for resource: #<Workout id: 4, name: "Leg Day", created_at: "2019-01-24 16:25:27", updated_at: "2019-01-24 16:25:27">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Workout::ActiveRecord_Relation (0.78ms)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/v1/exercises" for 127.0.0.1 at 2019-01-24 10:25:41 -0600
+Processing by Api::V1::ExercisesController#index as HTML
+  [1m[36mExercise Load (0.2ms)[0m  [1m[34mSELECT "exercises".* FROM "exercises"[0m
+  ↳ app/controllers/api/v1/exercises_controller.rb:11
+No serializer found for resource: #<Exercise id: 1, name: "barbell bench press", category: "strength", main_muscle_worked: "chest", equipment: "barbell", level: "beginner", video: "https://www.bodybuilding.com/exercises/barbell-ben...", workout_id: 5, created_at: "2019-01-24 16:25:27", updated_at: "2019-01-24 16:25:27">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Exercise::ActiveRecord_Relation (1.71ms)
+Completed 200 OK in 26ms (Views: 6.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/v1/stats" for 127.0.0.1 at 2019-01-24 10:25:55 -0600
+Processing by Api::V1::StatsController#index as HTML
+  [1m[36mStat Load (0.2ms)[0m  [1m[34mSELECT "stats".* FROM "stats"[0m
+  ↳ app/controllers/api/v1/stats_controller.rb:11
+No serializer found for resource: #<Stat id: 1, sets: 3, min_weight: 80, max_weight: 180, reps: 36, workout_id: 4, exercise_id: 4, created_at: "2019-01-24 16:25:27", updated_at: "2019-01-24 16:25:27">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Stat::ActiveRecord_Relation (2.2ms)
+Completed 200 OK in 29ms (Views: 8.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/v1/workouts" for 127.0.0.1 at 2019-01-24 10:26:12 -0600
+Processing by Api::V1::WorkoutsController#index as */*
+Started GET "/api/v1/exercises" for 127.0.0.1 at 2019-01-24 10:26:12 -0600
+  [1m[36mWorkout Load (0.3ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts"[0m
+  ↳ app/controllers/api/v1/workouts_controller.rb:11
+Processing by Api::V1::ExercisesController#index as */*
+No serializer found for resource: #<Workout id: 4, name: "Leg Day", created_at: "2019-01-24 16:25:27", updated_at: "2019-01-24 16:25:27">
+  [1m[36mExercise Load (0.4ms)[0m  [1m[34mSELECT "exercises".* FROM "exercises"[0m
+  ↳ app/controllers/api/v1/exercises_controller.rb:11
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Workout::ActiveRecord_Relation (0.94ms)
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.3ms)
+
+
+No serializer found for resource: #<Exercise id: 1, name: "barbell bench press", category: "strength", main_muscle_worked: "chest", equipment: "barbell", level: "beginner", video: "https://www.bodybuilding.com/exercises/barbell-ben...", workout_id: 5, created_at: "2019-01-24 16:25:27", updated_at: "2019-01-24 16:25:27">
+Started GET "/api/v1/stats" for 127.0.0.1 at 2019-01-24 10:26:12 -0600
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Exercise::ActiveRecord_Relation (3.22ms)
+Processing by Api::V1::StatsController#index as */*
+Completed 200 OK in 18ms (Views: 12.5ms | ActiveRecord: 1.0ms)
+
+
+  [1m[36mStat Load (0.3ms)[0m  [1m[34mSELECT "stats".* FROM "stats"[0m
+  ↳ app/controllers/api/v1/stats_controller.rb:11
+No serializer found for resource: #<Stat id: 1, sets: 3, min_weight: 80, max_weight: 180, reps: 36, workout_id: 4, exercise_id: 4, created_at: "2019-01-24 16:25:27", updated_at: "2019-01-24 16:25:27">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Stat::ActiveRecord_Relation (2.28ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/exercises" for 127.0.0.1 at 2019-01-24 10:27:01 -0600
+Processing by Api::V1::ExercisesController#index as HTML
+  [1m[36mExercise Load (0.3ms)[0m  [1m[34mSELECT "exercises".* FROM "exercises"[0m
+  ↳ app/controllers/api/v1/exercises_controller.rb:11
+No serializer found for resource: #<Exercise id: 1, name: "barbell bench press", category: "strength", main_muscle_worked: "chest", equipment: "barbell", level: "beginner", video: "https://www.bodybuilding.com/exercises/barbell-ben...", workout_id: 5, created_at: "2019-01-24 16:25:27", updated_at: "2019-01-24 16:25:27">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Exercise::ActiveRecord_Relation (3.73ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/workouts" for 127.0.0.1 at 2019-01-24 10:27:09 -0600
+Processing by Api::V1::WorkoutsController#index as HTML
+  [1m[36mWorkout Load (0.2ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts"[0m
+  ↳ app/controllers/api/v1/workouts_controller.rb:11
+No serializer found for resource: #<Workout id: 4, name: "Leg Day", created_at: "2019-01-24 16:25:27", updated_at: "2019-01-24 16:25:27">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Workout::ActiveRecord_Relation (1.0ms)
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.2ms)
+
+

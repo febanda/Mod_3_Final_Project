@@ -7,6 +7,7 @@ class CreateExercises < ActiveRecord::Migration[5.2]
       t.string :equipment
       t.string :level
       t.string :video
+      t.belongs_to :workout, foreign_key: true
 
       t.timestamps
     end
