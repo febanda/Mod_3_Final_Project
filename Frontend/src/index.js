@@ -1,71 +1,48 @@
-<<<<<<< HEAD
-// Utilities
-=======
 // HTML Elements
->>>>>>> a5fbb15bbc34f0610c4a181ddbd630974e6a888e
 let s = function(selector) {
-  return document.querySelector(selector)}
-
+  return document.querySelector(selector);
+};
 let c = function(tagName) {
-  return document.createElement(tagName)}
+  return document.createElement(tagName);
+};
 
-
-<<<<<<< HEAD
-  // HTML Elements
-let workoutListContainer = s("#workout_collection");
-let workout_input = s("#workout_input");
-let workout_submit = s("#workout_submit");
-let delete_workout = s("#workout_delete");
-let workouts = []
-let stats = []
-let exercises = []
-
-// Render
-=======
 //HTML Variables
 let workoutListContainer = s("#workout_collection");
 let workout_input = s("#workout_input");
 let workout_submit = s("#workout_submit");
 let workouts = [];
+let exercises = [];
 
->>>>>>> a5fbb15bbc34f0610c4a181ddbd630974e6a888e
+// Render
 function render() {
+  workoutListContainer.innerText = "";
+
   workouts.forEach(workout => {
-    let workoutItem = c("ol");
-    let delete_workout = c("button");
+    let workoutItem = c("div");
+    let delete_button = c("button");
+    delete_button.innerText = "delete";
+    delete_button.setAttribute("id", workout.id);
+
+    let details_button = c("button");
+    details_button.innerText = "details";
+    details_button.setAttribute("id", workout.id);
+
     workoutItem.innerText = workout.name;
     workoutItem.setAttribute("class", "card");
-    workoutItem.setAttribute("id", workoutItem.innerText);
-    workoutItem.setAttribute("style", "font-size: 25px");
-    workoutListContainer.append(workoutItem);
-    workoutItem.append(delete_workout);
-    delete_workout.innerText = "delete";
+    workoutItem.append(delete_button, details_button);
 
-    delete_workout.addEventListener("click", () => {
+    workoutListContainer.append(workoutItem);
+
+    details_button.addEventListener("click", () => {
+      workoutDetails(workout);
+    });
+
+    delete_button.addEventListener("click", () => {
       deleteWorkout(workout);
     });
   });
 }
 
-<<<<<<< HEAD
-
-
-// Fetch
-function fetchWorkouts() {
-  fetch("http://localhost:3000/api/v1/workouts")
-      .then(res => res.json())
-      .then(res => (workouts = res))
-      .then(
-        fetch("http://localhost:3000/api/v1/stats")
-          .then(res => res.json())
-          .then(res => (stats = res))
-    )
-    .then(fetch("http://localhost:3000/api/v1/exercises")
-      .then(res => res.json())
-      .then(res => (exercises = res))
-        .then(render))
-}
-=======
 // create workout
 workout_submit.addEventListener("click", e => {
   e.preventDefault();
@@ -75,8 +52,37 @@ workout_submit.addEventListener("click", e => {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ name: workout_input.value })
-  }).then(fetchWorkouts);
+  })
+    .then(fetchWorkouts)
+    .then((workout_input.value = ""));
 });
+
+// delete workout function
+function deleteWorkout(workout) {
+  fetch(`http://localhost:3000/api/v1/workouts/${workout.id}`, {
+    method: "DELETE",
+    headers: { "Content-Type": "application/json" }
+  }).then(fetchWorkouts);
+}
+
+function workoutDetails(workout) {
+  let data = exercises.filter(exercise => exercise.workout_id == workout.id);
+
+  // let results = Object.entries(data).map(([key, value]) => ({ [key]: value })); WHAT IS THIS????
+  let workout_div = c("div");
+
+  data.forEach(function(object) {
+    workout_div.append(object.name);
+  });
+
+  // results.forEach((element, index, array));
+
+  // let nameresults = c("ol");
+  // nameresults.innerText = results.map(element => element.category);
+
+  // workout_div.append(nameresults);
+  workoutListContainer.append(workout_div);
+}
 
 // Fetch
 function fetchWorkouts() {
@@ -95,6 +101,4 @@ function fetchWorkouts() {
     )
     .then(render);
 }
-
 fetchWorkouts();
->>>>>>> a5fbb15bbc34f0610c4a181ddbd630974e6a888e
