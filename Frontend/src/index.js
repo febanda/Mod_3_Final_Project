@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 // Utilities
-=======
-// HTML Elements
->>>>>>> a5fbb15bbc34f0610c4a181ddbd630974e6a888e
 let s = function(selector) {
   return document.querySelector(selector)}
 
@@ -10,25 +6,12 @@ let c = function(tagName) {
   return document.createElement(tagName)}
 
 
-<<<<<<< HEAD
-  // HTML Elements
-let workoutListContainer = s("#workout_collection");
-let workout_input = s("#workout_input");
-let workout_submit = s("#workout_submit");
-let delete_workout = s("#workout_delete");
-let workouts = []
-let stats = []
-let exercises = []
-
-// Render
-=======
 //HTML Variables
 let workoutListContainer = s("#workout_collection");
 let workout_input = s("#workout_input");
 let workout_submit = s("#workout_submit");
 let workouts = [];
 
->>>>>>> a5fbb15bbc34f0610c4a181ddbd630974e6a888e
 function render() {
   workouts.forEach(workout => {
     let workoutItem = c("ol");
@@ -47,25 +30,6 @@ function render() {
   });
 }
 
-<<<<<<< HEAD
-
-
-// Fetch
-function fetchWorkouts() {
-  fetch("http://localhost:3000/api/v1/workouts")
-      .then(res => res.json())
-      .then(res => (workouts = res))
-      .then(
-        fetch("http://localhost:3000/api/v1/stats")
-          .then(res => res.json())
-          .then(res => (stats = res))
-    )
-    .then(fetch("http://localhost:3000/api/v1/exercises")
-      .then(res => res.json())
-      .then(res => (exercises = res))
-        .then(render))
-}
-=======
 // create workout
 workout_submit.addEventListener("click", e => {
   e.preventDefault();
@@ -97,4 +61,3 @@ function fetchWorkouts() {
 }
 
 fetchWorkouts();
->>>>>>> a5fbb15bbc34f0610c4a181ddbd630974e6a888e
